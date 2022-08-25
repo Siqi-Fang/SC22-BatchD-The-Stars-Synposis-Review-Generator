@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Business Casual - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{url_for('static',filename='/css/styles.css')}}" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">AN AI SUMMER CAMP PROJECT</span>
+                <span class="site-heading-lower">AI SYNOPSIS & REVIEW GENERATOR</span>
+            </h1>
+        </header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href={{url_for("home")}}>Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href={{url_for("results")}}>Generator</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href={{url_for("about")}}>About</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href={{url_for("team")}}>Team</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       <br>
+<h1 style="text-align:center;font-family:Times New Roman;color:white;font-size:500%"> ABOUT </h1>
+<h1 style="text-align:center;font-family:Times New Roman;color:white;font-size:250%"> CREATION PROCESS </h1>
+<section class="page-section">
+ <div class="timeline-process">
+  <div class="container-process left-process">
+    <div class="content-process">
+      <h2>Step 1</h2>
+      <p>We started off by discussing our individual goals and interest in order to help us decide on the theme and objective of our AI project. After reaching a consensus, we decided to create an AI that could generate reviews and synopses.
+</p>
+    </div>
+  </div>
+  <div class="container-process right-process">
+    <div class="content-process">
+      <h2>Step 2</h2>
+      <p>From there, we started looking at various databases in search of clean and filtered data. Using Kaggle, we collectively assembled datasets on anime, tv shows, and movie synopses/reviews.</p>
+    </div>
+  </div>
+  <div class="container-process left-process">
+    <div class="content-process">
+      <h2>Step 3</h2>
+      <p>After preparing our data, we converted text into vectors using Word2Vec for the AI to understand. Then we moved to chopping up our text and cleaning it up with the help of NLTK.</p>
+    </div>
+  </div>
+  <div class="container-process right-process">
+    <div class="content-process">
+      <h2>Step 4</h2>
+      <p>Next up we started training multiple AIs to generate synopses and positive/negative comments with the help of aitextgen.</p>
+    </div>
+  </div>
+  <div class="container-process left-process">
+    <div class="content-process">
+      <h2>Step 5</h2>
+      <p>Our final task was to deploy our product to the web with Flask</p>
+    </div>
+  </div>
+</section>
+
+        <br>
+
+        <section class="page-section">
+           <div class="container-xxl">
+              <div class="bg-faded p-5 ms-auto rounded">
+                 <div class="row">
+                    <div class="col-6">
+                    <h2> Why a synopsis and review generator? </h2>
+                    <p style="font-size:150%"> We see our project as an idea creation/brainstorming tool that can be really helpful and fun at the same time! We wanted something that could inspire and create random ideas for writers and filmakers. Our product is also a fun outlet that generates fun and silly stories!" </p>
+                    </div>
+                    <div class="col-6">
+                        <img src="{{ url_for('static',filename='img/idea.jpg') }}" style="width:520px;height:275px;position:relative;left:50px">
+                    </div>
+                 </div>
+          </section>
+
+          
+        <section class="page-section">
+           <div class="container-xxl">
+              <div class="bg-faded p-5 ms-auto rounded">
+                 <div class="row">
+                    <div class="col-6">
+                        <img src="{{ url_for('static',filename='img/kaggle2.jpg') }}" style="width:510px;height:300px;position:relative;left:30px">
+                    </div>
+                    <div class="col-6">
+                        <h2> Dataset information </h2>
+                        <p style="font-size:150%"> For this product, we utilized various datasets taken from Kaggle, the sizes of which ranged from 5,000 all the way up to 85,000 synopses and comments. Some notable datasets include movie reviews from IMDB, anime synopses from MyAnimeList, and TV show reviews from Metacritic. </p>
+                    </div>
+                 </div>
+           </section>
+
+
+ <section class="page-section">
+           <div class="container-xxl">
+              <div class="bg-faded p-5 ms-auto rounded">
+                 <div class="row">
+                    <div class="col-6">
+                         <h2> Ai training models </h2>
+                       <p style="font-size:140%"> Before the AI could be fed information, our team made sure to preprocess the data by getting rid of ellipses, extra tags, and to_csv functions. Training the AI was a difficult and time-consuming process. In fact, sometimes it would take up to 6 hours to train a single model. Additionally, rather than combining all the databases, we decided to train 9 separate AIs. </p>
+                    </div>
+                    <div class="col-6">
+                         <img src="{{ url_for('static',filename='img/preprocess.jpg') }}" style="width:510px;height:300px;position:relative;left:50px">
+                    </div>
+                 </div>
+          </section>
+
+   
+       <section class="page-section">
+           <div class="container-xxl">
+              <div class="bg-faded p-5 ms-auto rounded">
+                 <div class="row">
+                    <div class="col-6">
+                      <img src="{{ url_for('static',filename='img/obstacles.jpg') }}" style="width:510px;height:300px;position:relative;left:10px">
+                    </div>
+                    <div class="col-6">
+                        <h2> Overcoming difficulties </h2>
+                       <p style="font-size:120%"> While training the models, we noticed that we kept running out of RAM. In order to fix this issue, we had to edit the source code so that the AI would make the generation length shorter. We also ran into the issue of figuring out sentiment analysis for generating positive and negative comments. Our members solved this problem by splitting the dataset of comments into positive and negative ones based on rating systems. That way, we didn’t have to employ actual sentiment analysis into our models. </p>
+                    </div>
+                 </div>
+          </section>
+
+
+
+      
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

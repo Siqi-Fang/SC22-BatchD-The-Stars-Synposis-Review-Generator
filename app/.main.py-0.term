@@ -1,0 +1,27 @@
+(base) ]0;~/omni_nlp/app[01;34m~/omni_nlp/app[00m$ (base) ]0;~/omni_nlp/app[01;34m~/omni_nlp/app[00m$ python -m main
+Traceback (most recent call last):
+  File "/projects/ee57c99e-aa92-4748-9b9a-ebd0d88a18ae/miniconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/projects/ee57c99e-aa92-4748-9b9a-ebd0d88a18ae/miniconda3/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/projects/ee57c99e-aa92-4748-9b9a-ebd0d88a18ae/omni_nlp/app/main.py", line 18, in <module>
+    from flask import Flask, request, redirect, url_for, render_template, session
+ModuleNotFoundError: No module named 'flask'
+(base) ]0;~/omni_nlp/app[01;34m~/omni_nlp/app[00m$ (base) ]0;~/omni_nlp/app[01;34m~/omni_nlp/app[00m$ (base) ]0;~/omni_nlp/app[01;34m~/omni_nlp/app[00m$ (base) ]0;~/omni_nlp/app[01;34m~/omni_nlp/app[00m$ (base) ]0;~/omni_nlp/app[01;34m~/omni_nlp/app[00m$ [K(base) ]0;~/omni_nlp/app[01;34m~/omni_nlp/app[00m$ cd ..
+(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ git init
+Initialized empty Git repository in /projects/ee57c99e-aa92-4748-9b9a-ebd0d88a18ae/omni_nlp/.git/
+(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ git remote add https://github.com/Siqi-Fang/SC22-BatchD-The-Stars-Synposis-Review-Generator.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ git remote add https://github.com/Siqi-Fang/SC22-BatchD-The-Stars-Synposis-Review-Generator.gitM(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ [C[C[C[Cinit[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Kremote add [K[K[K[K[K[K[K[K[K[K[K remote ad ao[K[K[K[Kdd orig https://github.com/Siqi-Fang/SC22-BatchD-The-Stars-Synposis-Review-Generator.git
+(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ git [K[K[K[Kg

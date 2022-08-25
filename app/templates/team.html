@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Business Casual - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{url_for('static',filename='/css/styles.css')}}" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">AN AI SUMMER CAMP PROJECT</span>
+                <span class="site-heading-lower">AI SYNOPSIS & REVIEW GENERATORl</span>
+            </h1>
+        </header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href={{url_for("home")}}>Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href={{url_for("results")}}>Generator</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href={{url_for("about")}}>About</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href={{url_for("team")}}>Team</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       <section class="page-section cta">
+            <h1 style="text-align:center; font-family:Times New Roman"> MEET OUR TEAM! </h1> <h3 style="text-align:center; font-family:Times New Roman"> Together we created our AI </h3> <br>
+            <br>
+            <div class="row">
+                <div class="column">
+                    <div class="card offset-md-1">
+                        <img src="{{ url_for('static',filename='img/Lance.jpg') }}" alt="Lance" style="width:100%">
+                        <div class="container">
+                            <h2>Lance Wytko</h2>
+                            <p class="title">Front-end developer</p>
+                            <p>I am a rising senior at Long Reach High School. I enjoy math, engineering, and computer science related classes. I plan on majoring in aeronautical engineering. I enjoy playing classic video games and climbing things.</p>
+                        </div>
+                     </div>
+                  </div>
+              <div class="column">
+                 <div class="card offset-md-1">
+                    <img src="{{ url_for('static',filename='img/Alex.jpg') }}" alt="Alexander" style="width:100%">
+                    <div class="container">
+                        <h2>Alexander Korolev</h2>
+                        <p class="title">Front-end developer</p>
+                        <p>I am a rising senior at Brooklyn Technical High School in NYC. I’m really interested in programming and, in addition to Java and Python, am studying to learn more coding languages. In my free time, I enjoy wrestling, playing video games, and hanging out with friends. I want to major in computer programming because it’s my dream to work in the field of software engineering.
+
+</p>
+                    </div>
+                </div>
+             </div>
+
+             <div class="column">
+                <div class=" card offset-md-1">
+                    <img src="{{ url_for('static',filename='img/Camilla.jpg') }}" alt="Camilla" style="width:100%">
+                    <div class="container">
+                        <h2>Camilla Bertuzzi</h2>
+                        <p class="title">Front-end developer</p>
+                        <p>I am a rising senior. I really enjoy studying anything, but I particularly like scientific subjects such as math, physics, and computer science. I also like everything related to anatomy and physiology. I’m still undecided what I will major in, but right now my options are medicine or engineering. I practice Karate and love running. </p>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <br>
+            <div class="row">
+                <div class="column">
+                    <div class="card offset-md-1">
+                        <img src="{{ url_for('static',filename='img/rori.jpg') }}" alt="Rori" style="width:100%">
+                        <div class="container">
+                            <h2>Rori Wu</h2>
+                            <p class="title">Back-end developer</p>
+                            <p>I’m a rising junior at River Hill High School in Maryland. My favorite subject is computer science and I have a strong interest in game development. In my spare time, I enjoy drawing, playing video games, and reading manga. I’m also the president of my school’s game development, animation, and gsa clubs! As for the future, I plan to major in CS and art in college.
+</p>
+                        </div>
+                     </div>
+                  </div>
+              <div class="column">
+                 <div class="card  offset-md-1">
+                    <img src="{{ url_for('static',filename='img/ryan.jpg') }}" alt="Ryan" style="width:100%">
+                    <div class="container">
+                        <h2>Ryan Stutzenburg</h2>
+                        <p class="title">Back-end developer</p>
+                        <p>I am a rising junior at Rancocas Valley Regional High School. I am fascinated with philosophical science; What is Life? What is the universe? How did it start? I enjoy learning AI because it simulates conscious understanding and thinking. I play baseball, piano, and make music in my free time. In the future, I want to become a quantum physicist or music artist. Or both!
+
+</p>
+                    </div>
+                </div>
+             </div>
+
+             <div class="column">
+                <div class="card  offset-md-1">
+                    <img src="{{ url_for('static',filename='img/bob.jpg') }}" alt="Bob" style="width:100%">
+                    <div class="container">
+                        <h2>Bob (Jiayi) Fan</h2>
+                        <p class="title">Back-end developer</p>
+                        <p>I am a rising junior at the Macduffie school in Massachusetts. I am interested in History a lot, the sense of heaviness makes me addicted to it. Recently I played the video game “Red Dead Redemption 2” to enjoy the US in 1899 (the gold rush time). I am planning to major in either History or Coding. I don’t know which major I am going to work on yet, but the overall direction is “I want to learn some information that can be used”. </p>
+                    </div>
+                </div>
+            </div>
+         </div>
+      </section>
+
