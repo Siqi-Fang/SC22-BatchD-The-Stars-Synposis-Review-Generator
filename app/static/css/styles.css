@@ -11426,12 +11426,12 @@ p {
 }
 @media (min-width: 992px) {
   .intro .intro-img {
-    width: 60%;
+    width: 50%;
     float: right;
   }
   .intro .intro-text {
     left: 0;
-    width: 60%;
+    width: 50%;
     margin-top: 3rem;
     position: absolute;
    

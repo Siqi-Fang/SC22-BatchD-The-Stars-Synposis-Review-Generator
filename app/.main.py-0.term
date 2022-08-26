@@ -24,4 +24,122 @@ usage: git remote add [<options>] <name> <url>
 
 (base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ git remote add https://github.com/Siqi-Fang/SC22-BatchD-The-Stars-Synposis-Review-Generator.gitM(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ [C[C[C[Cinit[K
 [KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Kremote add [K[K[K[K[K[K[K[K[K[K[K remote ad ao[K[K[K[Kdd orig https://github.com/Siqi-Fang/SC22-BatchD-The-Stars-Synposis-Review-Generator.git
-(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ git [K[K[K[Kg
+(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ git [K[K[K[Kgit remo=[K[K[K[K[Kadd . 
+(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   .gitignore[m
+	[32mnew file:   Dockerfile[m
+	[32mnew file:   README.md[m
+	[32mnew file:   app/.main.py-0-python3.term[m
+	[32mnew file:   app/.main.py-0.term[m
+	[32mnew file:   app/main.py[m
+	[32mnew file:   app/requirements.txt[m
+	[32mnew file:   app/static/css/styles.css[m
+	[32mnew file:   app/static/favicon.ico[m
+	[32mnew file:   app/static/img/Alex.jpg[m
+	[32mnew file:   app/static/img/Camilla.jpg[m
+	[32mnew file:   app/static/img/Lance.jpg[m
+	[32mnew file:   app/static/img/about.jpg[m
+	[32mnew file:   app/static/img/bg.jpg[m
+	[32mnew file:   app/static/img/bob.jpg[m
+	[32mnew file:   app/static/img/idea.jpg[m
+	[32mnew file:   app/static/img/intro.jpg[m
+	[32mnew file:   app/static/img/kaggle2.jpg[m
+	[32mnew file:   app/static/img/obstacles.jpg[m
+	[32mnew file:   app/static/img/preprocess.jpg[m
+	[32mnew file:   app/static/img/products-01.jpg[m
+	[32mnew file:   app/static/img/products-02.jpg[m
+	[32mnew file:   app/static/img/products-03.jpg[m
+	[32mnew file:   app/static/img/rori.jpg[m
+	[32mnew file:   app/static/img/ryan.jpg[m
+	[32mnew file:   app/static/js/scripts.js[m
+	[32mnew file:   app/templates/.about.html-0.term[m
+	[32mnew file:   app/templates/.about.html.sage-chat[m
+	[32mnew file:   app/templates/Write-your-story-with-AI.html[m
+	[32mnew file:   app/templates/about.html[m
+	[32mnew file:   app/templates/generator.html[m
+	[32mnew file:   app/templates/index.html[m
+	[32mnew file:   app/templates/team.html[m
+	[32mnew file:   app/templates/writer_home.html[m
+	[32mnew file:   app/utils.py[m
+	[32mnew file:   config.py[m
+	[32mnew file:   host_config[m
+	[32mnew file:   nginx_host[m
+
+(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ git pisj[K[K[K[Kpush [K[K[K[K[Kcommit -m[Km "init sync"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ee57c99eaa9247489b9aebd0d88a18ae@4823e77503dd.(none)')
+(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ git config --global user.email si[Kfang@hamilton.edu
+(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ git config --global user.email sfang@hamilton.edu[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kname Siqi-Fang
+(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ git config --global user.name Siqi-Fangemail sfang@hamilton.edu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pmmit -m "init sync"
+[master (root-commit) ff0ac3b] init sync
+ 38 files changed, 13056 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Dockerfile
+ create mode 100644 README.md
+ create mode 100644 app/.main.py-0-python3.term
+ create mode 100644 app/.main.py-0.term
+ create mode 100644 app/main.py
+ create mode 100644 app/requirements.txt
+ create mode 100644 app/static/css/styles.css
+ create mode 100644 app/static/favicon.ico
+ create mode 100644 app/static/img/Alex.jpg
+ create mode 100644 app/static/img/Camilla.jpg
+ create mode 100644 app/static/img/Lance.jpg
+ create mode 100644 app/static/img/about.jpg
+ create mode 100644 app/static/img/bg.jpg
+ create mode 100644 app/static/img/bob.jpg
+ create mode 100644 app/static/img/idea.jpg
+ create mode 100644 app/static/img/intro.jpg
+ create mode 100644 app/static/img/kaggle2.jpg
+ create mode 100644 app/static/img/obstacles.jpg
+ create mode 100644 app/static/img/preprocess.jpg
+ create mode 100644 app/static/img/products-01.jpg
+ create mode 100644 app/static/img/products-02.jpg
+ create mode 100644 app/static/img/products-03.jpg
+ create mode 100644 app/static/img/rori.jpg
+ create mode 100644 app/static/img/ryan.jpg
+ create mode 100644 app/static/js/scripts.js
+ create mode 100644 app/templates/.about.html-0.term
+ create mode 100644 app/templates/.about.html.sage-chat
+ create mode 100644 app/templates/Write-your-story-with-AI.html
+ create mode 100644 app/templates/about.html
+ create mode 100644 app/templates/generator.html
+ create mode 100644 app/templates/index.html
+ create mode 100644 app/templates/team.html
+ create mode 100644 app/templates/writer_home.html
+ create mode 100644 app/utils.py
+ create mode 100644 config.py
+ create mode 100644 host_config
+ create mode 100644 nginx_host
+(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ git push orig main
+error: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/Siqi-Fang/SC22-BatchD-The-Stars-Synposis-Review-Generator.git'
+[m(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ git push orig main[K[K[K[Kmaster
+Username for 'https://github.com': Siqi-Fang
+Password for 'https://Siqi-Fang@github.com': 
+Enumerating objects: 46, done.
+Counting objects:   2% (1/46)Counting objects:   4% (2/46)Counting objects:   6% (3/46)Counting objects:   8% (4/46)Counting objects:  10% (5/46)Counting objects:  13% (6/46)Counting objects:  15% (7/46)Counting objects:  17% (8/46)Counting objects:  19% (9/46)Counting objects:  21% (10/46)Counting objects:  23% (11/46)Counting objects:  26% (12/46)Counting objects:  28% (13/46)Counting objects:  30% (14/46)Counting objects:  32% (15/46)Counting objects:  34% (16/46)Counting objects:  36% (17/46)Counting objects:  39% (18/46)Counting objects:  41% (19/46)Counting objects:  43% (20/46)Counting objects:  45% (21/46)Counting objects:  47% (22/46)Counting objects:  50% (23/46)Counting objects:  52% (24/46)Counting objects:  54% (25/46)Counting objects:  56% (26/46)Counting objects:  58% (27/46)Counting objects:  60% (28/46)Counting objects:  63% (29/46)Counting objects:  65% (30/46)Counting objects:  67% (31/46)Counting objects:  69% (32/46)Counting objects:  71% (33/46)Counting objects:  73% (34/46)Counting objects:  76% (35/46)Counting objects:  78% (36/46)Counting objects:  80% (37/46)Counting objects:  82% (38/46)Counting objects:  84% (39/46)Counting objects:  86% (40/46)Counting objects:  89% (41/46)Counting objects:  91% (42/46)Counting objects:  93% (43/46)Counting objects:  95% (44/46)Counting objects:  97% (45/46)Counting objects: 100% (46/46)Counting objects: 100% (46/46), done.
+Delta compression using up to 2 threads
+Compressing objects:   2% (1/43)Compressing objects:   4% (2/43)Compressing objects:   6% (3/43)Compressing objects:   9% (4/43)Compressing objects:  11% (5/43)Compressing objects:  13% (6/43)Compressing objects:  16% (7/43)Compressing objects:  18% (8/43)Compressing objects:  20% (9/43)Compressing objects:  23% (10/43)Compressing objects:  25% (11/43)Compressing objects:  27% (12/43)Compressing objects:  30% (13/43)Compressing objects:  32% (14/43)Compressing objects:  34% (15/43)Compressing objects:  37% (16/43)Compressing objects:  39% (17/43)Compressing objects:  41% (18/43)Compressing objects:  44% (19/43)Compressing objects:  46% (20/43)Compressing objects:  48% (21/43)Compressing objects:  51% (22/43)Compressing objects:  53% (23/43)Compressing objects:  55% (24/43)Compressing objects:  58% (25/43)Compressing objects:  60% (26/43)Compressing objects:  62% (27/43)Compressing objects:  65% (28/43)Compressing objects:  67% (29/43)Compressing objects:  69% (30/43)Compressing objects:  72% (31/43)Compressing objects:  74% (32/43)Compressing objects:  76% (33/43)Compressing objects:  79% (34/43)Compressing objects:  81% (35/43)Compressing objects:  83% (36/43)Compressing objects:  86% (37/43)Compressing objects:  88% (38/43)Compressing objects:  90% (39/43)Compressing objects:  93% (40/43)Compressing objects:  95% (41/43)Compressing objects:  97% (42/43)Compressing objects: 100% (43/43)Compressing objects: 100% (43/43), done.
+Writing objects:   2% (1/46)Writing objects:   4% (2/46)Writing objects:   6% (3/46)Writing objects:   8% (4/46)Writing objects:  10% (5/46)Writing objects:  13% (6/46)Writing objects:  15% (7/46)Writing objects:  17% (8/46)Writing objects:  19% (9/46)Writing objects:  21% (10/46)Writing objects:  23% (11/46)Writing objects:  26% (12/46)Writing objects:  28% (13/46)Writing objects:  30% (14/46)Writing objects:  32% (15/46)Writing objects:  34% (16/46)Writing objects:  36% (17/46)Writing objects:  39% (18/46)Writing objects:  41% (19/46)Writing objects:  43% (20/46)Writing objects:  45% (21/46)Writing objects:  47% (22/46)Writing objects:  50% (23/46)Writing objects:  52% (24/46)Writing objects:  54% (25/46)Writing objects:  56% (26/46)Writing objects:  58% (27/46)Writing objects:  60% (28/46)Writing objects:  63% (29/46)Writing objects:  65% (30/46)Writing objects:  67% (31/46), 4.96 MiB | 9.83 MiB/sWriting objects:  69% (32/46), 4.96 MiB | 9.83 MiB/sWriting objects:  71% (33/46), 4.96 MiB | 9.83 MiB/sWriting objects:  73% (34/46), 4.96 MiB | 9.83 MiB/sWriting objects:  76% (35/46), 4.96 MiB | 9.83 MiB/sWriting objects:  78% (36/46), 4.96 MiB | 9.83 MiB/sWriting objects:  82% (38/46), 4.96 MiB | 9.83 MiB/sWriting objects:  84% (39/46), 4.96 MiB | 9.83 MiB/sWriting objects:  89% (41/46), 4.96 MiB | 9.83 MiB/sWriting objects:  91% (42/46), 4.96 MiB | 9.83 MiB/sWriting objects:  93% (43/46), 4.96 MiB | 9.83 MiB/sWriting objects:  95% (44/46), 4.96 MiB | 9.83 MiB/sWriting objects:  97% (45/46), 4.96 MiB | 9.83 MiB/sWriting objects: 100% (46/46), 4.96 MiB | 9.83 MiB/sWriting objects: 100% (46/46), 5.25 MiB | 10.14 MiB/s, done.
+Total 46 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), done.[K
+To https://github.com/Siqi-Fang/SC22-BatchD-The-Stars-Synposis-Review-Generator.git
+ * [new branch]      master -> master
+(base) ]0;~/omni_nlp[01;34m~/omni_nlp[00m$ (base) ]0;~/omni_nlp/app[01;34m~/omni_nlp/app[00m$ (base) ]0;~/omni_nlp/app[01;34m~/omni_nlp/app[00m$ (base) ]0;~/omni_nlp/app[01;34m~/omni_nlp/app[00m$ [K(base) ]0;~/omni_nlp/app[01;34m~/omni_nlp/app[00m$ 
